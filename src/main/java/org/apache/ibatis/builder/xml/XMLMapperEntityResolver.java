@@ -48,7 +48,7 @@ public class XMLMapperEntityResolver implements EntityResolver {
   private static final String MYBATIS_MAPPER_SYSTEM = "http://mybatis.org/dtd/mybatis-3-mapper.dtd".toUpperCase(Locale.ENGLISH);
 
   private static final String POWERHOUSE_MYBATIS_MAPPER_PUBLIC = "-//mybatis.org//DTD Mapper 3.0 Powerhouse//EN".toUpperCase(Locale.ENGLISH);
-  private static final String POWERHOUSE_MYBATIS_MAPPER_SYSTEM = "http://mybatis.org/dtd/mybatis-3-Powerhouse-mapper.dtd".toUpperCase(Locale.ENGLISH);
+  private static final String POWERHOUSE_MYBATIS_MAPPER_SYSTEM = "http://mybatis.org/dtd/mybatis-3-Powerhouse-mappe.dtd".toUpperCase(Locale.ENGLISH);
 
   private static final String MYBATIS_CONFIG_DTD = "org/apache/ibatis/builder/xml/mybatis-3-config.dtd";
   private static final String MYBATIS_MAPPER_DTD = "org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd";
