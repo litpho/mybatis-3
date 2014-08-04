@@ -38,8 +38,6 @@ public class IncludeMapperXmlBuilderTest {
 
 		String sqlOutput = configuration.getMappedStatement("com.domain.IncludeMapper.selectInclude").getSqlSource().getBoundSql(null).getSql();
 
-		System.out.println(sqlOutput);
-
 		String[] lines = sqlOutput.split("\n");
 		Assert.assertEquals("w.a as a, w.b as b, w.c as c", lines[2].trim());
 		Assert.assertEquals(",", lines[3].trim());
