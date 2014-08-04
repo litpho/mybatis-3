@@ -255,7 +255,7 @@ columnPrefix CDATA #IMPLIED
  value CDATA #REQUIRED
 >
 
-<!ELEMENT sql (#PCDATA | include | trim | where | set | foreach | choose | if | bind)*>
+<!ELEMENT sql (#PCDATA | include | includeColumns | trim | where | set | foreach | choose | if | bind)*>
 <!ATTLIST sql
 id CDATA #REQUIRED
 lang CDATA #IMPLIED

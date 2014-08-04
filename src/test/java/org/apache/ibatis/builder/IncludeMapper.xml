@@ -31,8 +31,13 @@ limitations under the License.
 		p as z, q as y, r
 	</sql>
 
+	<sql id="includeColumnsTest">
+		<includeColumns refid="Base_Column_List" tableAlias="w"/>
+	</sql>
+
 	<select id="selectInclude">
 		select
+		<include refid="includeColumnsTest"/>,
 		<includeColumns refid="Base_Column_List" tableAlias="x"/>,
 		<includeColumns refid="Base_Column_List" tableAlias="y" columnPrefix="q_"/>,
 		<includeColumns refid="Second_Base_Column_List" tableAlias="z"/>
